@@ -10,3 +10,6 @@ class ClassName(object):
     def multiply():
     def divide():
     def squareRoot():
+    def baskaraFormula():
+    def timeDifferenceBetweenDates():
+    def howLongUntilTime():

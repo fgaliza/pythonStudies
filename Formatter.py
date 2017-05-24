@@ -5,5 +5,10 @@ class Formatter(object):
 		self.arg = arg
 
 	def removeAccents():
+
+
 	def removeSpecialCharacters():
-		
+
+	def formatCpf():
+
+	def dateFormat():
