@@ -5,25 +5,25 @@ class Conditions(object):
         super(Conditions, self).__init__()
         self.arg = arg
 
-    def ifelse():
-        n1 = 1
-        n2 = 2
-        string1 = "Hello"
-        string2 = "How are you?"
-        """
-    	Straight forward if else logic
-    	"""
-        if n1 > n2:
-            print('n1 bigger')
-        else:
-            print('n2 bigger')
+    def ifelse(param1, param2):
 
-        if string1 is "Fillipe":
-        	print('Hello Fillipe')
-        elif string1 is  "Lucy":
-        	print ("Hello Lucy")
-        elif string1 is "Gabe":
-        	print ("Hello Gabe")
+        if param1 > param2:
+            print "%s is bigget than %s" % (param1, param2)
+        elif param2 < param1:
+            print "%s is bigget than %s" % (param2, param1)
         else:
-        	print("Who are you?")
+            print "The values are equal"
+
+    def checkIfSameObject(param1, param2):
+
+        """
+        Compare memory location of two objects
+        Check if the variables on either side of the operator
+        point to the same object
+        """
+
+        if param1 is param2:
+            print 'YES'
+        else:
+            print 'NO'
 

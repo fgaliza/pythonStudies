@@ -19,7 +19,7 @@ def multiply(n1, n2):
     return n1 * n2
 
 
-def divide(n1, n2, roundDivision):
+def divide(n1, n2, roundDivision=False):
     if roundDivision is True:
         return n1 // n2
     else:
@@ -55,17 +55,8 @@ def boxVolume(length, width, height):
 
 
 def sphereVolume(radius):
-    return (4 / 3) * 3.14 * (r**3)
+    return (4 / 3) * 3.14 * (radius**3)
 
 
 def cylinderVolume(radius, height):
     return self.circleArea(radius) * height
-
-
-def baskaraFormula():
-
-
-def timeDifferenceBetweenDates():
-
-
-def howLongUntilTime():
