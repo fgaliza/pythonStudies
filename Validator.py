@@ -12,9 +12,9 @@ class Validator(object):
     def validateCep():
 
     def validateDate():
-    	"""
-    	Check if date is valid, wether is dd/mm/aaaa or dd/mm/aa or aaaa/mm/dd
-    	"""
+        """
+        Check if date is valid, wether is dd/mm/aaaa or dd/mm/aa or aaaa/mm/dd
+        """
 
     def discoverDocument():
         """
