@@ -10,9 +10,9 @@ class Conditions(object):
         if param1 > param2:
             print "%s is bigget than %s" % (param1, param2)
         elif param2 < param1:
-            print "%s is bigget than %s" % (param2, param1)
+            print '$s is bigget than $s' % (param2, param1)
         else:
-            print "The values are equal"
+            print 'The values are equal'
 
     def checkIfSameObject(param1, param2):
 
@@ -26,4 +26,3 @@ class Conditions(object):
             print 'YES'
         else:
             print 'NO'
-
